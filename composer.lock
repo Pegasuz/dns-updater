@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "59d6758b2f6e2672f1bfa30d34144696",
+    "packages": [
+        {
+            "name": "directadmin/directadmin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kryap/php-directadmin.git",
+                "reference": "2143262cd5d0721e83b6a1e63275d45d42020e13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kryap/php-directadmin/zipball/2143262cd5d0721e83b6a1e63275d45d42020e13",
+                "reference": "2143262cd5d0721e83b6a1e63275d45d42020e13",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DirectAdmin": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Schalenborgh",
+                    "email": "chris.s@kryap.com",
+                    "homepage": "http://chris.schalenborgh.be/blog/"
+                }
+            ],
+            "description": "DirectAdmin API PHP class",
+            "keywords": [
+                "directadmin",
+                "php"
+            ],
+            "time": "2014-04-18 10:52:56"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "directadmin/directadmin": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,12 @@
+{
+    "name": "pieter/dns-updater",
+    "authors": [
+        {
+            "name": "pieter meyvaert",
+            "email": "pieter@pegasuz.be"
+        }
+    ],
+    "require": {
+        "directadmin/directadmin": "dev-master"
+    }
+}
