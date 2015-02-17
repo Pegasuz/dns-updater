@@ -1,0 +1,15 @@
+# DA connection data
+da_hostname: domain.tld
+da_port: 2222
+da_username: username
+da_password: password
+
+# Remote ip check url (must only return remote ip)
+external_ip_check_url: http://domain.tld/ip.php
+
+# Domain to control dns records from
+domain: domain.tld
+
+# List of dns records to maintain
+dns_records:
+- test
