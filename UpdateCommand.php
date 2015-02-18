@@ -76,9 +76,8 @@ class UpdateCommand extends Command
     protected function getConfig($value = null)
     {
         if (is_null($this->config)) {
-            $this->config = \Symfony\Component\Yaml\Yaml::parse('config.yml');
+            $this->config = \Symfony\Component\Yaml\Yaml::parse(__DIR__ . '/config.yml');
         }
-
         if ($value) {
             return $this->config[$value];
         }
