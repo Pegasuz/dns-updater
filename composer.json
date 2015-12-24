@@ -11,6 +11,7 @@
         "symfony/console": "~2.6",
         "psr/log": "~1.0",
         "symfony/class-loader": "~2.6",
-        "symfony/yaml": "~2.6"
+        "symfony/yaml": "~2.6",
+        "monolog/monolog": "~1.12"
     }
 }
