@@ -1,7 +1,9 @@
 {
     "name": "pegasuz/dns-updater",
     "description": "Tool to update dns records through Direct Admin API.",
-    "license": "BSD",
+    "license": "MIT",
+    "keywords": ["dns","directadmin","console","homeserver"],
+    "type": "library",
     "authors": [
         {
             "name": "pieter meyvaert",
