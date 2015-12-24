@@ -1,5 +1,7 @@
 {
-    "name": "pieter/dns-updater",
+    "name": "pegasuz/dns-updater",
+    "description": "Tool to update dns records through Direct Admin API.",
+    "license": "BSD",
     "authors": [
         {
             "name": "pieter meyvaert",
